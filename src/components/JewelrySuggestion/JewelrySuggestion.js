@@ -24,7 +24,7 @@ export const JewelrySuggestion = ({ jewelryId }) => {
     <section className={styles["suggestion-box"]}>
       <div className={styles["title-container"]}>
         <hr className={styles["line"]} />
-        <h3 className={styles["title"]}>React Gems Suggests</h3>
+        <h3 className={styles["title"]}>MERN Gems Suggests</h3>
         <hr className={styles["line"]} />
       </div>
       <div className={styles["images-container"]}>

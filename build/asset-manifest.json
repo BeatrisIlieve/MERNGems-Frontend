@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.cdc31913.css",
-    "main.js": "/static/js/main.a125f00c.js",
+    "main.js": "/static/js/main.b9652820.js",
     "static/js/453.419a5d54.chunk.js": "/static/js/453.419a5d54.chunk.js",
     "static/media/tisaSansProMediumItalic.ttf": "/static/media/tisaSansProMediumItalic.c1a2631df62039f5697b.ttf",
     "static/media/tisaSansProMedium.ttf": "/static/media/tisaSansProMedium.48285a8343d3d3e19c06.ttf",
     "static/media/tisaSansProLight.ttf": "/static/media/tisaSansProLight.77765de353a76f48e13d.ttf",
     "index.html": "/index.html",
     "main.cdc31913.css.map": "/static/css/main.cdc31913.css.map",
-    "main.a125f00c.js.map": "/static/js/main.a125f00c.js.map",
+    "main.b9652820.js.map": "/static/js/main.b9652820.js.map",
     "453.419a5d54.chunk.js.map": "/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cdc31913.css",
-    "static/js/main.a125f00c.js"
+    "static/js/main.b9652820.js"
   ]
 }
