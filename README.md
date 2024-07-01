@@ -6,7 +6,7 @@
 
 ---
 
-### <p align="center"> *Visit our online store at: http://35.181.248.13:3000* </p>
+### <p align="center"> *Visit our online store at: http://15.188.17.73:3000* </p>
 
 ---
 
