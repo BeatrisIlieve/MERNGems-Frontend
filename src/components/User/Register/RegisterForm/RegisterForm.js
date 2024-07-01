@@ -73,6 +73,10 @@ export const RegisterForm = () => {
       const data = { email, password, firstName, lastName };
       try {
         await onRegisterSubmit(data);
+
+        Object.keys(FORM_KEYS).forEach((key) => {
+          INITIAL_FORM_VALUES[FORM_KEYS[key]].errorMessage = "";
+        });
       } catch (err) {
         if (err.message === EMAIL_ALREADY_EXISTS_ERROR_MESSAGE) {
           setValues((prevValues) => ({
