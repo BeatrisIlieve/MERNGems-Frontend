@@ -1,0 +1,71 @@
+.order-summary-container {
+  display: flex;
+  position: relative;
+}
+
+.jewelry-bag-image {
+  width: 30%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.jewelry-bag-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: var(--white-pink);
+}
+
+.jewelry-bag-composition {
+  width: 40%;
+  position: relative;
+  padding-left: 16px;
+}
+
+.jewelry-bag-composition-title {
+  font-size: var(--small-font-size);
+  font-family: var(--bold-font-family);
+  padding-bottom: 16px;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+  overflow-wrap: break-word;
+  position: absolute;
+  top: 0;
+}
+
+.size-span {
+  font-size: var(--small-font-size);
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.jewelry-bag-price-quantity {
+  font-size: var(--small-font-size);
+  width: 20%;
+  position: relative;
+}
+
+.quantity-span {
+  font-size: var(--small-font-size);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.jewelry-bag-price {
+  font-family: var(--bold-font-family);
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  width: 20%;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+}

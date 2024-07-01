@@ -1,0 +1,163 @@
+.card-details-title {
+  padding-left: 20px;
+  font-family: var(--bold-font-family);
+}
+
+.dropdown-month {
+  position: absolute;
+  display: inline;
+  width: 30%;
+  height: 47px;
+  border: 0.1px solid var(--border);
+  top: 200px;
+  left: 34%;
+}
+
+.dropdown-year {
+  position: absolute;
+  display: inline;
+  width: 30%;
+  height: 47px;
+  border: 0.1px solid var(--border);
+  top: 200px;
+  left: 66.4%;
+}
+
+.dropdown-toggle {
+  background-color: var(--white);
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  display: inline;
+  color: var(--white-gray);
+  padding: 14px;
+}
+
+.dropdown-menu {
+  display: block;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  background-color: var(--white);
+  border: 0.1px solid var(--border);
+  margin-bottom: -1px;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  z-index: 1000;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+  cursor: pointer;
+  background-color: var(--white);
+}
+
+.dropdown-menu li:hover {
+  background-color: var(--not-available-gray);
+}
+
+.top-li {
+  color: var(--extra-light-gray);
+}
+
+.chevron-icon {
+  color: var(--white-gray);
+  position: absolute;
+  right: 10px;
+}
+
+.card-details-form {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 20px; */
+  position: relative;
+}
+
+.form {
+  display: inline;
+}
+
+.field-box {
+  height: 90px;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+.field-box-cvv {
+  height: 90px;
+  width: 30%;
+  position: relative;
+  display: inline-block;
+}
+
+.field-container {
+  border: 0.1px solid var(--border);
+  position: relative;
+  padding: 10px 10px 0px 14px;
+}
+
+.field-container:focus {
+  background-color: black;
+}
+
+.error {
+  border: 0.1px solid var(--dark-red);
+}
+
+.error-message {
+  font-size: var(--small-font-size);
+  color: var(--dark-red);
+  padding-top: 4px;
+  margin: 0px;
+  padding-bottom: 0px;
+}
+
+.custom-placeholder::placeholder {
+  color: var(--border) !important;
+  opacity: 1;
+}
+
+.label {
+  color: var(--middle-gray);
+  position: absolute;
+  left: 14px;
+  top: 14px;
+}
+
+.isFocused {
+  top: 0px;
+  padding: 4px 0px;
+  left: 14px;
+  font-size: var(--minimum-font-size);
+}
+
+.input,
+textarea {
+  caret-color: var(--border);
+  padding: 10px 0px;
+}
+
+.continue-checkout-button {
+  padding: 12px;
+  font-family: var(--bold-font-family);
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  background: var(--button-gray);
+  color: var(--white);
+  outline: none;
+  letter-spacing: 0px;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.continue-checkout-button:hover {
+  background: var(--button-gray-hover);
+}

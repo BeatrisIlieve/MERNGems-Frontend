@@ -1,0 +1,38 @@
+.filter-by-container {
+  color: var(--middle-gray);
+  font-family: var(--bold-font-family);
+  font-size: var(--small-font-size);
+}
+
+.filter-by-container {
+  display: flex;
+  gap: 40px;
+}
+
+.filter-list {
+  display: flex;
+  gap: 40px;
+  font-family: var(--bold-font-family);
+  font-size: var(--small-font-size);
+}
+
+.filter-button {
+  text-decoration: none;
+  color: var(--gray);
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  letter-spacing: 1.2px;
+  padding-bottom: 4px;
+  background-color: var(--white);
+}
+
+.filter-item {
+  padding-bottom: 10px;
+}
+
+.form-vertical-line {
+  border: 0.1px solid var(--extra-light-gray);
+  margin-bottom: 10px;
+}

@@ -1,0 +1,54 @@
+.dropdown-toggle {
+  text-decoration: none;
+  color: var(--gray);
+  position: relative;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  letter-spacing: 1.2px;
+  padding-bottom: 4px;
+  background-color: var(--white);
+  font-family: var(--bold-font-family);
+  font-size: var(--small-font-size);
+}
+
+.label-span {
+  color: var(--middle-gray);
+  font-family: var(--bold-font-family);
+  font-size: var(--small-font-size);
+  margin-right: 8px;
+}
+
+.label-text {
+  text-decoration: none;
+  color: var(--gray);
+  position: relative;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  letter-spacing: 1.2px;
+  padding-bottom: 4px;
+  background-color: var(--white);
+  font-family: var(--bold-font-family);
+  font-size: var(--small-font-size);
+  margin-right: 8px;
+}
+
+.label-text::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: var(--dark-pink);
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.label-text:hover::before {
+  width: 100%;
+  color: var(--dark-pink);
+  left: 0;
+}

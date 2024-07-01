@@ -1,0 +1,110 @@
+.register-box {
+  margin: 40px 214px 40px 214px;
+}
+
+.register-container {
+  display: flex;
+  gap: 80px;
+}
+
+.form-container {
+  width: 36%;
+}
+
+.title {
+  font-size: var(--large-font-size);
+  font-family: var(--bold-italic-font-family);
+  padding: 0;
+  margin: 0px 0px 20px 0px;
+}
+
+.sub-title {
+  font-size: var(--small-font-size);
+  font-family: var(--bold-font-family);
+  margin: 0px 0px 40px 0px;
+  display: flex;
+  gap: 20px;
+}
+
+.sub-title-left,
+.sub-title-right,
+.arrow {
+  font-size: var(--small-font-size);
+  font-family: var(--bold-font-family);
+}
+
+.link {
+  text-decoration: none;
+  color: var(--gray);
+  position: relative;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  letter-spacing: 1.2px;
+  padding-bottom: 4px;
+}
+
+.link::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: var(--dark-pink);
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.link:hover::before {
+  width: 100%;
+  color: var(--dark-pink);
+  left: 0;
+}
+
+.password-requirements-container {
+  display: flex;
+  flex-direction: column;
+  width: 64%;
+}
+
+.image {
+  width: 106%;
+}
+.password-requirements {
+  margin-top: 128px;
+}
+
+.animated-button {
+  margin-top: 10px;
+  position: relative;
+  padding: 16px 48px;
+  font-size: 14px;
+  font-weight: 900;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: var(--white-pink);
+  box-shadow: 0 0 0 0.3px var(--dark-pink);
+  outline: none;
+  letter-spacing: 1.2px;
+  font-family: var(--bold-font-family);
+  width: 100%;
+}
+
+.animated-button::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 50%;
+  background-color: var(--dark-pink);
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.animated-button:hover::before {
+  width: 100%;
+  color: var(--dark-pink);
+  left: 0;
+}

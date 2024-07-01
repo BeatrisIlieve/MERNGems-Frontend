@@ -1,0 +1,121 @@
+.app {
+  font-family: var(--main-font-family);
+  font-size: var(--main-font-size);
+  color: var(--gray);
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.main {
+  margin: 0px;
+  min-height: 100vh;
+  margin-top: 158px;
+}
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --dark-pink: #fc8eac;
+  --button-hover-pink: #fc99b4;
+  --button-pink: #fda5bd;
+  --medium-pink: #fec7d6;
+  --white-pink: #fff4f788;
+  --not-transparent-white-pink: #fff4f7;
+  --dark-red: #fa2a55;
+  --green: #5daa68;
+  --gray: #1a1a1a;
+  --button-gray: #484848;
+  --button-gray-hover: #313131;
+  --middle-gray: #808080;
+  --white-gray: #999999;
+  --extra-light-gray: #bababa;
+  --not-available-gray: #e8e8e8;
+  --dark-golden: #947a27;
+  --white-golden: #d4af37;
+  --border: hsl(0deg 0.99% 80.2%);
+  --transparent-gray: #f9f9f979;
+  --picture: #f9f9f9;
+  --shadow-gray: #1a1a1a87;
+}
+
+@font-face {
+  font-family: "tisaSansProLight";
+  src: url("./fonts/tisaSansProLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "tisaSansProBold";
+  src: url("./fonts/tisaSansProMedium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "tisaSansProBoldItalic";
+  src: url("./fonts/tisaSansProMediumItalic.ttf") format("truetype");
+}
+
+:root {
+  --main-font-family: tisaSansProLight, Arial, sans-serif, -apple-system,
+    ui-sans-serif, system-ui;
+  --bold-font-family: tisaSansProBold, Arial, sans-serif, -apple-system,
+    ui-sans-serif, system-ui;
+  --bold-italic-font-family: tisaSansProBoldItalic, Arial, sans-serif,
+    -apple-system, ui-sans-serif, system-ui;
+}
+
+:root {
+  --main-font-size: 14px;
+  --double-large-font-size: 38px;
+  --extra-large-font-size: 28px;
+  --large-font-size: 22px;
+  --middle-font-size: 20px;
+  --medium-font-size: 16px;
+  --small-font-size: 12px;
+  --minimum-font-size: 10px;
+  --extra-small-font-size: 8px;
+}
+
+input[type="text"],
+[type="password"],
+[type="email"] {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-internal-autofill-selected {
+  -webkit-box-shadow: 0 0 0px 1000px var(--white) inset !important;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+  outline: none;
+}
+
+input,
+textarea {
+  caret-color: var(--dark-pink);
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: var(--minimum-font-size);
+  height: var(--minimum-font-size);
+  border-radius: 0.15em;
+  margin-right: 0.5em;
+  border: 1px solid var(--gray);
+  outline: none;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked + label {
+  background-color: var(--not-transparent-white-pink);
+}

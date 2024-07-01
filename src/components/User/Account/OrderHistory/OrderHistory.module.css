@@ -1,0 +1,43 @@
+.order-history-box {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 8px 32px -12px,
+    rgba(0, 0, 0, 0.3) 0px 6px 12px -18px;
+  padding: 20px;
+}
+.delivery-icon {
+  color: var(--dark-pink);
+  margin-right: 8px;
+}
+
+.order-history-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.hr-line {
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 0 0 0.2px var(--dark-pink);
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+.line-img {
+  width: 14px;
+  vertical-align: middle;
+  margin: 0px 4px;
+}
+
+.no-orders {
+  text-align: center;
+}

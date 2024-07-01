@@ -1,0 +1,25 @@
+.bag-sub-title {
+  text-align: center;
+}
+.bag-sub-title p {
+  line-height: 0;
+  font-size: var(--medium-font-size);
+  margin-bottom: 100px;
+}
+
+.bag-sub-title h3 {
+  font-size: var(--large-font-size);
+  padding: 0px;
+  margin: 0px;
+}
+
+.empty-bag-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.no-decoration {
+  text-decoration: none;
+  color: var(--gray);
+}

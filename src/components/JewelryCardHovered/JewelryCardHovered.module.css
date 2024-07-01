@@ -1,0 +1,54 @@
+.jewelry-card-hovered {
+  position: relative;
+  width: 100%;
+  border: 1px solid var(--border);
+  height: 130%;
+  z-index: 1;
+  background-color: var(--white);
+}
+
+.jewelry-card-thumbnail {
+  aspect-ratio: 1 / 1;
+  margin: 28px;
+  background-color: var(--white-pink);
+}
+
+.jewelry-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.heart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: var(--dark-pink);
+  height: 20px;
+  cursor: pointer;
+  padding: 8px;
+}
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 86%;
+  left: 30%;
+  transform: translate(-20%, -50%);
+}
+.title {
+  color: var(--gray);
+  margin: 0px 0px 6px 0px;
+  text-align: center;
+  padding: 0;
+}
+
+.price {
+  color: var(--gray);
+  font-size: var(--main-font-size);
+  font-family: var(--bold-font-family);
+  margin: 0;
+  padding: 0;
+}

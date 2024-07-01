@@ -1,0 +1,29 @@
+.jewelry-card {
+  position: relative;
+}
+
+.jewelry-card-thumbnail {
+  aspect-ratio: 1 / 1;
+  background-color: var(--white-pink);
+}
+
+.sold-out {
+  background-color: var(--white-pink);
+  opacity: 0.7;
+}
+.jewelry-card-img,
+.jewelry-card-img-sold-out {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sold-out-span {
+  position: absolute;
+  color: var(--dark-golden);
+  font-family: var(--bold-italic-font-family);
+  right: 12px;
+  top: 12px;
+  padding: 8px;
+  opacity: 0.6;
+}

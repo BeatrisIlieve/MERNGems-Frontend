@@ -1,0 +1,32 @@
+.jewelries-box {
+  margin: 40px 140px 40px 140px;
+  position: relative;
+}
+
+.jewelries-nav {
+  display: flex;
+  margin: 0px 0px 60px 0px;
+  border-bottom: 0.1px solid var(--border);
+}
+
+.form-vertical-line {
+  border: 0.1px solid var(--border);
+  margin-bottom: 10px;
+}
+
+.jewelries-count {
+  font-size: var(--small-font-size);
+  margin-bottom: 12px;
+}
+
+.jewelries-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.load-more-button {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,60 @@
+.field-box {
+  height: 90px;
+  min-width: 241px;
+  position: relative;
+}
+
+.field-container {
+  border-bottom: 0.1px solid var(--dark-pink);
+  position: relative;
+  padding: 4px;
+}
+
+.error {
+  border-bottom: 0.1px solid var(--dark-red);
+}
+
+.error-message {
+  font-size: var(--small-font-size);
+  color: var(--dark-red);
+  padding-top: 4px;
+  margin: 0px;
+  padding-bottom: 0px;
+}
+
+.success-message {
+  font-size: var(--small-font-size);
+  color: var(--green);
+  padding-top: 4px;
+  margin: 0px;
+  padding-bottom: 0px;
+}
+
+.custom-placeholder::placeholder {
+  color: var(--dark-pink);
+  opacity: 1;
+}
+
+.label {
+  color: var(--middle-gray);
+  position: absolute;
+  left: 0;
+}
+
+.isFocused {
+  top: -12px;
+  left: 0;
+  font-size: var(--minimum-font-size);
+}
+
+.input-icon {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  color: var(--gray);
+  background-color: var(--medium-pink);
+  border-radius: 32px;
+  padding: 3px;
+  z-index: 10;
+  width: 9px;
+}

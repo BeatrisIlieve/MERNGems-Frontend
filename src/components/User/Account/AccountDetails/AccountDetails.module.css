@@ -1,0 +1,190 @@
+.account-details-box {
+  display: flex;
+  gap: 60px;
+}
+
+.left-container {
+  width: 50%;
+}
+
+.right-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.left-top-container,
+.right-bottom-container,
+.right-top-container,
+.left-top-container {
+  box-shadow: 0 0 0 0.3px var(--dark-pink);
+}
+
+.left-top-container,
+.right-top-container,
+.right-bottom-container {
+  padding: 40px;
+}
+
+.form-title,
+.form-title-address,
+.form-title-login-information {
+  font-family: var(--bold-italic-font-family);
+  font-size: var(--large-font-size);
+}
+
+.form-title {
+  margin: 0px 0px 60px 0px;
+}
+
+.form-title-address {
+  margin: 0px 0px 34px 0px;
+}
+
+.form-title-login-information {
+  margin: 0px 0px 42px 0px;
+}
+
+.form-sub-title {
+  font-family: var(--bold-font-family);
+  margin: 0px 0px 8px 0px;
+}
+
+.email {
+  margin: 0px 0px 40px 0px;
+}
+
+.form-title-address {
+  border-bottom: 1px solid var(--border);
+  padding: 0px 40px 20px 40px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: white;
+  outline: none;
+  text-decoration: underline;
+  margin: 0px;
+  padding: 0px;
+}
+
+.button:hover {
+  font-family: var(--bold-font-family);
+}
+
+.slideIn {
+  animation: slideIn 0.4s forwards;
+  padding-bottom: 40px;
+}
+
+.slideOut {
+  animation: slideOut 0.4s forwards;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(40px);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    opacity: 1;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+}
+
+.account-management-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.address-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.address-button {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: var(--white);
+}
+
+.address-icon {
+  color: var(--dark-pink);
+  height: 20px;
+}
+
+.animated-button {
+  margin-top: 10px;
+  position: relative;
+  padding: 16px 48px;
+  font-size: 14px;
+  font-weight: 900;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: var(--white-pink);
+  box-shadow: 0 0 0 0.3px var(--dark-pink);
+  outline: none;
+  letter-spacing: 1.2px;
+  font-family: var(--bold-font-family);
+  width: 100%;
+  text-decoration: none;
+}
+
+.animated-button::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 50%;
+  background-color: var(--dark-pink);
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.animated-button:hover::before {
+  width: 100%;
+  color: var(--dark-pink);
+  left: 0;
+}
+
+.dismiss-button {
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: var(--white);
+  outline: none;
+  font-family: var(--bold-font-family);
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6px;
+}

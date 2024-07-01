@@ -1,0 +1,248 @@
+.jewelry-details-box {
+  margin: 20px 140px 40px 140px;
+  display: flex;
+  flex-direction: column;
+}
+
+.jewelry-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jewelry-images {
+  width: 50%;
+  position: relative;
+}
+
+.left-image {
+  position: relative;
+  display: inline-block;
+  animation: slideInLeft 0.5s forwards;
+}
+
+.right-image {
+  position: relative;
+  display: inline-block;
+  animation: slideInRight 0.5s forwards;
+}
+
+@keyframes slideInLeft {
+  from {
+    left: -94px;
+  }
+  to {
+    left: 0;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    right: -94px;
+  }
+  to {
+    right: 0;
+  }
+}
+
+.image {
+  top: 0;
+  right: 0;
+  animation: slideIn 0.5s forwards;
+  display: inline-block;
+}
+
+.circles-container {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle {
+  color: var(--extra-light-gray);
+  height: 10px;
+}
+
+.photo-selected {
+  color: var(--middle-gray);
+}
+
+.jewelry-info-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.jewelry-title {
+  font-style: var(--bold-italic-font-family);
+  margin: 20px 0px 10px 0px;
+  padding: 0;
+}
+
+.flex-container-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr-line {
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 0 0 0.2px var(--dark-pink);
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+.line-img {
+  width: 30px;
+  vertical-align: middle;
+  margin: 0px 4px;
+}
+
+.jewelry-description {
+  margin: 40px 0px 60px 0px;
+}
+
+.button-container {
+  display: flex;
+  gap: 6px;
+  width: 100%;
+}
+
+.add-to-bag-button,
+.add-to-wishlist-button {
+  position: relative;
+  padding: 12px;
+  font-size: var(--medium-font-size);
+  font-family: var(--bold-italic-font-family);
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  background: var(--button-pink);
+  color: var(--white);
+  outline: none;
+  letter-spacing: 1.2px;
+}
+
+.add-to-bag-button {
+  width: 84%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.price-span,
+.add-span {
+  position: absolute;
+}
+.price-span {
+  left: 0;
+  margin-left: 20px;
+}
+
+.add-span {
+  right: 0;
+  margin-right: 20px;
+}
+
+.add-to-bag-button:hover,
+.add-to-wishlist-button:hover {
+  background: var(--button-hover-pink);
+}
+
+.button-disabled {
+  padding: 12px;
+  font-size: var(--medium-font-size);
+  border: none;
+  overflow: hidden;
+  background: var(--medium-pink);
+  color: var(--white);
+  outline: none;
+  letter-spacing: 1.2px;
+  width: 84%;
+  cursor: not-allowed;
+}
+
+.button-disabled:hover {
+  background: var(--medium-pink);
+}
+
+.add-to-wishlist-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16%;
+}
+
+.heart {
+  color: var(--white);
+  height: 18px;
+  cursor: pointer;
+}
+
+.jewelry-card-img,
+.jewelry-card-img-sold-out {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sold-out-span {
+  position: absolute;
+  color: var(--dark-golden);
+  font-family: var(--bold-italic-font-family);
+  right: 12px;
+  top: 40px;
+  padding: 8px;
+  opacity: 0.6;
+}
+
+.radio-container {
+  display: flex;
+}
+
+input[type="radio"] {
+  display: none;
+  &:not(:disabled) ~ label {
+    cursor: pointer;
+  }
+  &:disabled ~ label {
+    color: var(--border);
+    border-color: var(--border);
+    box-shadow: none;
+    cursor: not-allowed;
+  }
+}
+
+.label {
+  display: flex;
+  gap: 1px;
+  background: var(--white);
+  border: 1px solid var(--button-pink);
+  padding: 12px;
+  margin-right: 6px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  width: 96px;
+  justify-content: center;
+}
+
+.size-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.size-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+}
+
+.error-message {
+  color: var(--dark-red);
+}
