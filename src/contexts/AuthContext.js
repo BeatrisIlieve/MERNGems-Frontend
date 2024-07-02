@@ -16,10 +16,9 @@ export const AuthProvider = ({ children }) => {
       clearTimeout(logoutTimer);
       logoutTimer = setTimeout(async () => {
         setAuth({});
-        // 600000
         localStorage.removeItem("auth");
         await authService.logout();
-      }, 10000);
+      }, 600000);
     }
   };
 
