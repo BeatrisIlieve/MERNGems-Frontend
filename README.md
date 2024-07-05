@@ -471,7 +471,7 @@ export const PasswordInformationForm = () => {
 };
 ```
 
-#### 2. Session Timeout Functionality
+#### 2. JSON Web Token expiration (adjusted JWT token expiration to 10 seconds for demo video to showcase Login Popup; reset to 10 minutes and rebuilt app afterwards)
 - The application tracks user activity, including keyboard inputs, clicks, and scrolling
 - If no activity is detected for 10 minutes, the user is automatically logged out
 - On the payment page, a popup informs the user that their session has expired. The popup includes a button to go to the login page. After logging in, the user is redirected back to the payment page to continue their transaction
