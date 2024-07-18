@@ -6,7 +6,7 @@
 
 ---
 
-### <p align="center"> *Visit our online store at: https://mern-gems-boutique.web.app* </p>
+### <p align="center"> *Visit our online store at: http://15.188.17.73:3000* </p>
 
 ---
 
@@ -51,7 +51,7 @@
 <p align="right" dir="auto"><a href="#js-gems">Back To Top</a></p>
 
 ## Deployment
-- Firebase
+- AWS EC2 Instance
 - GitHub Actions
 - Docker Hub
 
