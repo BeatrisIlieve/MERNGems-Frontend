@@ -51,7 +51,7 @@
 <p align="right" dir="auto"><a href="#js-gems">Back To Top</a></p>
 
 ## Deployment
-- AWS EC2 Instance
+- Firebase
 - GitHub Actions
 - Docker Hub
 
