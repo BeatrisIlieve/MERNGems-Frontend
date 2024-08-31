@@ -4,12 +4,6 @@
   <img src="https://res.cloudinary.com/deztgvefu/image/upload/v1719057213/template_images/Screenshot_2024-06-22_at_14.52.43_xrdvgt.png" alt="Project Logo" width="340">
 </p>
 
----
-
-### <p align="center"> *Visit our online store at: http://15.188.17.73:3000* </p>
-
----
-
 <a name="built-with"></a>
 <a name="error-handling"></a>
 
