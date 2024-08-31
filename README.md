@@ -13,7 +13,6 @@
   <a href="#demo-video">Demo Video</a> ·
   <a href="#built-with">Built With</a> ·
   <a href="#testing">Testing</a> ·
-  <a href="#deployment">Deployment</a> ·
   <a href="#error-handling">Error Handling</a> ·
   <a href="#features">Features</a> ·
   <a href="#backend">Backend</a> 
@@ -40,14 +39,7 @@
 ## Testing
 - Jest
 
-[![Coverage Status](https://img.shields.io/badge/coverage-63%25-brightgreen.svg)](https://github.com/BeatrisIlieve/MERNGems-Frontend/blob/main/testCoverageReport/index.html)
-
-<p align="right" dir="auto"><a href="#js-gems">Back To Top</a></p>
-
-## Deployment
-- AWS EC2 Instance
-- GitHub Actions
-- Docker Hub
+![Coverage Status](https://img.shields.io/badge/coverage-63%25-brightgreen.svg)
 
 <p align="right" dir="auto"><a href="#js-gems">Back To Top</a></p>
 
